@@ -16,7 +16,7 @@ mem[1], mem[2], mem[3] = 1, 2, 4    # 초기세팅
 for i in range(4, len(mem)):
     mem[i] = mem[i - 1] + mem[i - 2] + mem[i - 3]   # 점화식
 
-# 문제입력을 받아 출력 미리 연산된 값을 출력
+# 문제입력을 받아 미리 연산된 값을 출력
 rot = int(input())
 for _ in range(rot):
     num = int(input())
