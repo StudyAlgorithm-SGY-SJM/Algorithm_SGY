@@ -16,4 +16,4 @@ for i, l in enumerate(lope):
     if pivot != l:  # N개를 한번만 읽으면서 동시에 lope의 값이 바뀌면 바뀐 지점부터 끝까지 들수 있는 무게를 구함
         pivot = l
         weight.append(pivot*(N-i))
-print(max(weight))
+print(max(weight))  # 구한 무게중에서 최댓값을 출력
